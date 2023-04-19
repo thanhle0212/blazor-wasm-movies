@@ -19,7 +19,7 @@ public class MovieController : ControllerBase
     [Route("Top10Movies")]
     public async Task<List<Movie>> GetTop10MoviesAsync()
     {
-        var apiKey = "728870e1397db70ea9db310a4d837c6c";
+        var apiKey = "YOUR-API-KEY";
         var apiUrl = $"https://api.themoviedb.org/3/movie/top_rated?api_key={apiKey}&language=en-US&page=1";
         var response = await _httpClient.GetFromJsonAsync<MovieResponse>(apiUrl);
         return response.Results.Take(10).ToList();
@@ -29,7 +29,7 @@ public class MovieController : ControllerBase
     [Route("{id}/Video")]
     public async Task<MovieVideo> GetVideoById(int id)
     {
-        var apiKey = "728870e1397db70ea9db310a4d837c6c";
+        var apiKey = "YOUR-API-KEY";
         var apiUrl = $"https://api.themoviedb.org/3/movie/{id}/videos?api_key={apiKey}&language=en-US";
         var response = await _httpClient.GetFromJsonAsync<MovieVideoResponse>(apiUrl);
         return response.Results.FirstOrDefault();
