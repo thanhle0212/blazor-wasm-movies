@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "blazor-wasm-movies-temp.dll": "sha256-LYcI467QolcGSTSF0OTTKuLNWXx\/\/qdn8nHzkpJ4Ib0=",
+      "blazor-wasm-movies-temp.dll": "sha256-xGmjd1pGM61xeXfepHAn0sEIQ3z1a09YTbOQrAZMKFM=",
       "Microsoft.AspNetCore.Components.dll": "sha256-JbOjdFivg8FsY+QsLfiSFtf+0VbpST4tiicxAIDFQJA=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-CqjgLzzZwv7F4s+S4K1bhK5MxHLAwzuuHeDyIpP2bQg=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-2Jg3mQhCSyqkofbgXHMRw0whL7fAl07+VKYd0lApk7I=",
