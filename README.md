@@ -9,7 +9,7 @@ The application is built using C# for the back-end and HTML, CSS, and JavaScript
 
 It also uses Javascript Interop to interact with Javascript.
 
-The project includes the source code, as well as any necessary dependencies, and can be easily run locally using Visual Studio or the .NET CLI. With proper configuration, it can also be published to a web server for public use.
+The project includes the source code, as well as any necessary dependencies, and can be easily run locally using Visual Studio or the .NET CLI. With proper configuration, it can also be published to a web server for public use .
 
 ## Note: In order to retrieve the movie data, you need to register TMDb account and get the API Key
 https://developers.themoviedb.org/3/getting-started/introduction
