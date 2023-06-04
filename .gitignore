@@ -1782,3 +1782,6 @@ obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 obj/blazor-wasm-movies-temp.csproj.nuget.g.targets
 obj/blazor-wasm-movies-temp.csproj.nuget.g.props
 obj/blazor-wasm-movies-temp.csproj.nuget.dgspec.json
+bin/Debug/net7.0/wwwroot/_framework/dotnet.7.0.5.uok8qbzlkn.js
+bin/Debug/net7.0/wwwroot/_framework/dotnet.7.0.5.uok8qbzlkn.js.gz
+*.gz
