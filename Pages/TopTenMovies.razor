@@ -54,7 +54,7 @@ else
     public IJSRuntime JSRuntime { get; set; }
     private IJSObjectReference _jsModule;
 
-    private string apiKey = "YOUR_API_KEY_HERE";
+    private string apiKey = "728870e1397db70ea9db310a4d837c6c";
     protected override async Task OnInitializedAsync()
     {
         _jsModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./jsExamples.js");
